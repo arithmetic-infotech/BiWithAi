@@ -1,0 +1,6 @@
+streamlit==1.37.1
+pandas==2.2.2
+altair==5.1.2
+transformers==4.44.0
+SQLAlchemy~=2.0.32
+lamini==3.0.5

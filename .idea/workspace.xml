@@ -4,18 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81ac71c8-92f0-498d-bc63-389ddea793da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/BiWithAi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aiwithbi/RunBiWithAi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aiwithbi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aiwithbi/requirements.txt" afterDir="false" />
+    <list default="true" id="81ac71c8-92f0-498d-bc63-389ddea793da" name="Changes" comment="added initial setup">
+      <change afterPath="$PROJECT_DIR$/com/aiwithbi/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aiwithbi/db/cassandra/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aiwithbi/db/connetors/DatabaseConnector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aiwithbi/db/connetors/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aiwithbi/exceptions/DatabaseExecutionError.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aiwithbi/exceptions/ModelInferenceError.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aiwithbi/exceptions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aiwithbi/logging/Logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aiwithbi/logging/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aiwithbi/prompt_processing/QueryGenerator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aiwithbi/prompt_processing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aiwithbi/transformers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aiwithbi/transformers/lamini_sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/aiwithbi/RunBiWithAi.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/aiwithbi/RunBiWithAi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/aiwithbi/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +38,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
   <component name="ProjectId" id="2kkLvkAZiAoO3cHkakjrvqYB73P" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,10 +55,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "git-widget-placeholder": "main",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rasik\PycharmProjects\BiWithAi" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -64,6 +81,15 @@
       <option name="presentableId" value="Default" />
       <updated>1723822861940</updated>
     </task>
+    <task id="LOCAL-00001" summary="added initial setup">
+      <option name="closed" value="true" />
+      <created>1723823700380</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723823700380</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,5 +102,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added initial setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="added initial setup" />
   </component>
 </project>
